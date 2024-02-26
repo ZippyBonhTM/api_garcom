@@ -1,0 +1,33 @@
+{
+  "name": "api_garcom",
+  "version": "1.0.0",
+  "description": "Uma API para exercitar meus estudos e colocar em meu portfólio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZippyBonhTM/api_garcom.git"
+  },
+  "keywords": [
+    "garçom",
+    "api",
+    "javascript",
+    "testing",
+    "learning"
+  ],
+  "author": "João Gabriel Menezes Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZippyBonhTM/api_garcom/issues"
+  },
+  "homepage": "https://github.com/ZippyBonhTM/api_garcom#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.2.0",
+    "nodemon": "^3.1.0"
+  }
+}

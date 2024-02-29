@@ -4,7 +4,7 @@ import route from "./routes/index.js";
 
 const connection = ConnectToDB();
 
-connection.once("opne", () => {
+connection.once("open", () => {
     console.log("Conexão com o Banco de Dados feita!");
 });
 

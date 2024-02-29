@@ -29,5 +29,8 @@
     "mongodb": "^6.3.0",
     "mongoose": "^8.2.0",
     "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
   }
 }

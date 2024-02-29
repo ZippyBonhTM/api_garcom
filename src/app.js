@@ -1,10 +1,11 @@
-import conection from "./config/dbConnect.js";
+import ConnectToDB from "./config/dbConnect.js";
 import express from "express";
 import route from "./routes/index.js";
 
+const connection = ConnectToDB();
 
-conection.once("open", () => {
-    console.log("Conexão com o banco feita!");
+connection.once("opne", () => {
+    console.log("Conexão com o Banco de Dados feita!");
 });
 
 const app = express();

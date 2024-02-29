@@ -1,9 +1,8 @@
-import express from "express";
+import mongoose from "mongoose";
 
-const conection = express();
+function ConnectToDB () {
+    mongoose.connect(process.env.DB_URI_CONNECTION);
+    return mongoose.connection;
+}
 
-conection.listen(process.env.DB_URL_CONNECTION, () => {
-    console.log("Banco Conectando.");
-});
-
-export default conection;
+export default ConnectToDB;
